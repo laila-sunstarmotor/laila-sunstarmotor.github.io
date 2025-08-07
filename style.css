@@ -1,8 +1,10 @@
-body {
-	margin: 0;
-	font-family: Arial, sans-serif;
-	background: #d6eff4;
-}
+/* Responsive Design dengan Media Queries */
+@media (max-width: 600px) {
+  body {
+   	  width: 90%; /* Lebar body menjadi 90% dari lebar layar */
+	  background: #d6eff4;
+  }
+
 .navbar{
 	background: #212121;
 	margin: 0;
@@ -70,5 +72,6 @@ body {
 .my-float{
 	margin-top:16px;
 }
+
 
 
